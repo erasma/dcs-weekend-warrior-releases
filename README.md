@@ -208,6 +208,7 @@ Open with **⚙** on the overlay. The useful ones:
 
 - **erasma**: author and test pilot
 - **DeepSeek**: AI coding assistant, wrote parts of the code
+- **Claude (Anthropic)**: AI coding assistant, wrote parts of the code
 
 ---
 
