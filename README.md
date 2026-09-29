@@ -204,6 +204,13 @@ Open with **⚙** on the overlay. The useful ones:
 
 ---
 
+## Contributors
+
+- **erasma**: author and test pilot
+- **DeepSeek**: AI coding assistant, wrote parts of the code
+
+---
+
 ## Versions
 
 Each release is tagged `v<version>-b<build>`. See
