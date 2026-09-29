@@ -141,7 +141,7 @@ the app tells you which button to press.
 
 Open with **⚙** on the overlay. The useful ones:
 
-- **Controls**: rebind every key above.
+- **Controls**: move the optional keyboard shortcuts to other keys.
 - **Transparent overlay panel**: the on-screen panel (needs borderless/windowed DCS).
 - **Also show prompts as DCS mission text**: shows the prompts inside the game, for **VR** or
   full-screen.
