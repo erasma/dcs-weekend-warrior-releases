@@ -1,8 +1,9 @@
 # Weekend Warrior
 
-An automatic flight assistant for the **F/A-18C Hornet** in DCS World. It flies the procedural parts
-of a sortie for you: joining a tanker and taking fuel, getting home to a runway, and flying the
-carrier approach. Then it hands the jet back to you.
+An automatic flight assistant for DCS World. It flies the procedural parts of a sortie for you:
+joining a tanker and taking fuel, getting home to a runway, and flying the carrier approach. Then it
+hands the jet back to you. The **F/A-18C Hornet** has every mode; the **F-16C** has air-to-air
+refuelling (see [Aircraft](#aircraft)).
 
 **[⬇ Download the latest version](https://github.com/erasma/dcs-weekend-warrior-releases/releases/latest)**
 (get the `WeekendWarrior-….zip` file under *Assets*)
@@ -14,7 +15,8 @@ input and no memory reading.
 
 ## What you need
 
-- Windows 10 or 11, and DCS World with the **F/A-18C**. No other aircraft is supported.
+- Windows 10 or 11, and DCS World with the **F/A-18C** and/or the **F-16C**. See [Aircraft](#aircraft)
+  for which modes each one has.
 - Single-player, or a multiplayer server you host yourself.
 - DCS set to **borderless or windowed** mode if you want the on-screen overlay. In exclusive
   full-screen, or in VR, use the in-game text option instead (see [Settings](#settings)).
@@ -70,12 +72,30 @@ always update by hand: download the new zip and unzip it over the old folder.
 
 ---
 
+## Aircraft
+
+Each aircraft only gets the modes it has been set up for:
+
+| Aircraft | REFUEL | RTB | CARRIER | A/G |
+|---|---|---|---|---|
+| F/A-18C Hornet | ✅ drogue tankers | ✅ | ✅ | ✅ |
+| F-16C | ✅ KC-135 boom | – | – | – |
+| F-14 Tomcat | set up, not yet flight-tested (extend your own probe) | – | – | – |
+| any other aircraft | – | – | – | – |
+
+A mode your aircraft isn't set up for is **greyed out** on the mode bar. Tapping it tells you
+*"the … has not been set up for … yet"* and changes nothing. If you jump into a different aircraft,
+the app moves to a mode that aircraft has.
+
+---
+
 ## Using it
 
 You drive everything by **clicking the overlay**, the small panel over the game (drag it wherever
 you like):
 
-- **Pick a mode** on the bar along the top: **REFUEL · RTB · CARRIER · A/G**
+- **Pick a mode** on the bar along the top: **REFUEL · RTB · CARRIER · A/G** (modes your aircraft
+  doesn't have are greyed)
 - **Click the buttons** under it. They change with the mode and with what the jet is doing, so the
   button you need next is always the one showing.
 - **Pick from the list** (tanker, runway, deck or weapon) by clicking a row
@@ -102,8 +122,12 @@ Spoken prompts tell you what the app is doing and what it wants from you next.
 
 ### REFUEL
 
-Fly within a sensible distance of a drogue tanker (KC-135 MPRS, KC-130, S-3B, IL-78). The plain
-KC-135 is a boom tanker and cannot refuel a Hornet; the app will tell you so.
+**Hornet:** fly within a sensible distance of a drogue tanker (KC-135 MPRS, KC-130, S-3B, IL-78). The
+plain KC-135 is a boom tanker and cannot refuel a Hornet; the app will tell you so.
+
+**F-16C:** use a **boom** tanker (the plain KC-135). The drogue tankers can't refuel an F-16, and the
+app greys them out. It opens the air-refuel door for pre-contact and closes it when you're full. The
+buttons are the same as the Hornet's.
 
 - **START**: joins the tanker, holds 1 nm back, then **MOVE TO PRE-CONTACT** and **MOVE IN TO
   CONTACT** take it in to the basket, and it takes fuel. When you are full it breaks away and offers
@@ -171,7 +195,7 @@ Open with **⚙** on the overlay. The useful ones:
 
 ## Known limitations
 
-- F/A-18C only.
+- RTB, CARRIER and A/G are Hornet only for now. The F-16C has REFUEL only.
 - Case 2&3 hands over at ~6 nm. You couple the ACLS and make the radio calls.
 - The A/G trainer is guided, not automatic, and some weapons are not verified in the jet.
 - Carrier trims start at zero on a deck the app has not landed on before.
