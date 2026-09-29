@@ -76,12 +76,14 @@ always update by hand: download the new zip and unzip it over the old folder.
 
 Each aircraft only gets the modes it has been set up for:
 
-| Aircraft | REFUEL | RTB | CARRIER | A/G |
+| Aircraft | Refuel | RTB | Carrier | A/G |
 |---|---|---|---|---|
-| F/A-18C Hornet | ✅ drogue tankers | ✅ | ✅ | ✅ |
-| F-16C | ✅ KC-135 boom | – | – | – |
-| F-14 Tomcat | set up, not yet flight-tested (extend your own probe) | – | – | – |
-| any other aircraft | – | – | – | – |
+| F/A-18C Hornet | Yes (drogue tankers) | Yes | Yes | Yes |
+| F-16C | Yes (KC-135 boom) | No | No | No |
+| F-14 Tomcat | Untested | No | No | No |
+| Other aircraft | No | No | No | No |
+
+The Tomcat has refuelling set up but hasn't been flown with it yet. You extend the probe yourself.
 
 A mode your aircraft isn't set up for is **greyed out** on the mode bar. Tapping it tells you
 *"the … has not been set up for … yet"* and changes nothing. If you jump into a different aircraft,
