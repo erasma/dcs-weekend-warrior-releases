@@ -60,6 +60,11 @@ When the app starts, it checks this page for a newer version. If there is one, i
 Your settings, carrier trims and flight models are kept. It never asks while it is flying the jet
 for you.
 
+**Updates are digitally signed.** From version 1.1.0 (build 450) on, the app only installs an update
+that carries the Weekend Warrior release signature. If a download has been tampered with, or doesn't
+come from us, the app refuses it and your current version stays exactly as it was. So update from
+inside the app, or from this page, and never from a copy someone reposted elsewhere.
+
 You can also press **Check for updates now** in Settings, or turn the startup check off there. You can
 always update by hand: download the new zip and unzip it over the old folder.
 
