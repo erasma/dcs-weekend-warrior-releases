@@ -88,12 +88,13 @@ Nothing is left holding your stick.
 <details>
 <summary>Optional: keyboard shortcuts</summary>
 
-You don't need these. The main buttons also have keys: **Scroll Lock** = the main (blue) button,
-**Num Lock** = NEXT, **End** = END, **Insert** = switch mode, **Home** = overlay text on/off.
+You don't need these, and they are **off unless you turn them on**: Settings → Controls →
+*Keyboard shortcuts*. Once on, the main buttons also have keys: **Scroll Lock** = the main (blue)
+button, **Num Lock** = NEXT, **End** = END, **Insert** = switch mode, **Home** = overlay text on/off.
+You can move each one to another key in the same place.
 
-They are always on and work **anywhere in Windows**, not only in DCS. Pressing End in another
-program still ends what the app is flying. If one clashes with something you use, move it to
-another key in Settings → Controls. A key can be moved there but not switched off.
+When they are on, they work **anywhere in Windows**, not only in DCS. Pressing End in another
+program still ends what the app is flying.
 
 </details>
 
@@ -146,7 +147,7 @@ the app tells you which button to press.
 
 Open with **⚙** on the overlay. The useful ones:
 
-- **Controls**: move the optional keyboard shortcuts to other keys.
+- **Controls**: turn the optional keyboard shortcuts on or off, and choose their keys.
 - **Transparent overlay panel**: the on-screen panel (needs borderless/windowed DCS).
 - **Also show prompts as DCS mission text**: shows the prompts inside the game, for **VR** or
   full-screen.
