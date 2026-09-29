@@ -67,25 +67,30 @@ always update by hand: download the new zip and unzip it over the old folder.
 
 ## Using it
 
-Everything is on the **overlay**, the small panel over the game (drag it wherever you like):
+You drive everything by **clicking the overlay**, the small panel over the game (drag it wherever
+you like):
 
-- The **mode bar** along the top: **REFUEL · RTB · CARRIER · A/G**
-- The **buttons** under it change with the mode and with what the jet is doing
-- **⚙** opens Settings, **▾** collapses the panel
-- **EXIT** closes the app: tap once (it turns red, `CONFIRM?`), tap again within 3 s
+- **Pick a mode** on the bar along the top: **REFUEL · RTB · CARRIER · A/G**
+- **Click the buttons** under it. They change with the mode and with what the jet is doing, so the
+  button you need next is always the one showing.
+- **Pick from the list** (tanker, runway, deck or weapon) by clicking a row
+- **⚙** opens Settings, and **▾** collapses the panel
+- **EXIT** closes the app: click once (it turns red, `CONFIRM?`), then click again within 3 s
 
-You can also use the keyboard. You can change these keys in Settings:
+**END (the red button) always gives you the jet back.** So does switching mode or exiting the app.
+Nothing is left holding your stick.
 
-| Key | Does |
-|---|---|
-| **Scroll Lock** | START / the main action (START APPROACH, TAKE THE JET, …) |
-| **Num Lock** | NEXT (next tanker, next field, next deck) |
-| **End** | END: stop and give the jet back to you immediately |
-| **Insert** | Switch mode |
-| **Home** | Overlay text on/off |
+<details>
+<summary>Optional: keyboard shortcuts</summary>
 
-**END always gives you the jet back.** So does switching mode or exiting the app. Nothing is left
-holding your stick.
+You don't need these. The main buttons also have keys: **Scroll Lock** = the main (blue) button,
+**Num Lock** = NEXT, **End** = END, **Insert** = switch mode, **Home** = overlay text on/off.
+
+They are always on and work **anywhere in Windows**, not only in DCS. Pressing End in another
+program still ends what the app is flying. If one clashes with something you use, move it to
+another key in Settings → Controls. A key can be moved there but not switched off.
+
+</details>
 
 Spoken prompts tell you what the app is doing and what it wants from you next.
 
