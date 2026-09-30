@@ -8,6 +8,10 @@ refuelling (see [Aircraft](#aircraft)).
 **[⬇ Download the latest version](https://github.com/erasma/dcs-weekend-warrior-releases/releases/latest)**
 (get the `WeekendWarrior-….zip` file under *Assets*)
 
+Weekend Warrior is free. If you'd like more aircraft supported, you can
+**[buy me a coffee](https://buymeacoffee.com/erasma)** — it goes towards DCS modules to set up and test
+(see [Support](#support)).
+
 It talks to DCS only through DCS's own Export scripting. There is no kernel driver, no injected
 input and no memory reading.
 
@@ -88,6 +92,18 @@ The Tomcat has refuelling set up but hasn't been flown with it yet. You extend t
 A mode your aircraft isn't set up for is **greyed out** on the mode bar. Tapping it tells you
 *"the … has not been set up for … yet"* and changes nothing. If you jump into a different aircraft,
 the app moves to a mode that aircraft has.
+
+---
+
+## Support
+
+Every aircraft has to be set up and flight-tested in its own DCS module before the app can fly it.
+Donations go towards buying the modules I don't have yet:
+
+**[☕ Buy me a coffee](https://buymeacoffee.com/erasma)**
+
+Modules I already have, so these are the next ones to be set up: F/A-18C, F-16C, F-14 (the older
+version), A-10C II, AV-8B Harrier, AJS-37 Viggen and M-2000C.
 
 ---
 
