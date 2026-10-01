@@ -89,6 +89,9 @@ Each aircraft only gets the modes it has been set up for:
 
 The Tomcat has refuelling set up but hasn't been flown with it yet. You extend the probe yourself.
 
+**[Full status per aircraft](aircraft/README.md)**: for every aircraft, what is live in the app you download and
+how far the testing of each area (refuelling, A/G weapons, RTB, carrier) has got. It is updated as testing goes on.
+
 A mode your aircraft isn't set up for is **greyed out** on the mode bar. Tapping it tells you
 *"the … has not been set up for … yet"* and changes nothing. If you jump into a different aircraft,
 the app moves to a mode that aircraft has.

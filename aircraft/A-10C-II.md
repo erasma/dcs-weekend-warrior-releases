@@ -1,0 +1,24 @@
+# A-10C II Tank Killer
+
+Status on 2026-10-01. Player app version: **v1.1.0 (build 466)**.
+
+**Live** = in the player app you download. **Testing** = where this area stands against the test
+standard below. An area is only added to the player app once it has fully passed its test.
+
+| Area | Player app | Testing |
+|---|---|---|
+| Air-to-air refuelling | ⚪ Not in the app | ⚪ Not started |
+| A/G weapons | ⚪ Not in the app | ⚪ Not started |
+| RTB (runway landing) | ⚪ Not in the app | ⚪ Not started |
+| Carrier landing | ➖ Not applicable | ➖ Not applicable |
+
+- **Carrier landing:** Not carrier capable.
+
+## The test standard
+
+- **Air-to-air refuelling:** Automatic flight with real radio calls: join the tanker, connect, fill. Pass = fuel to full and a clean disconnect, no crash, no tanker collision.
+- **A/G weapons:** Every air-to-ground munition the aircraft can carry, once each. Guided weapons must lock and HIT (laser within 30 m having steered, missiles / GPS / anti-radar within 10 m, or the target destroyed). Unguided weapons (bombs, cluster, rockets, gun) must be set up and FIRE.
+- **RTB (runway landing):** Hands-free RTB to a runway at light, medium and heavy weight. Pass = touchdown in the touchdown zone on the centreline, gear intact, full stop on the runway, at all three weights.
+- **Carrier landing:** Hands-free carrier approach. Pass = 3 traps in a row: a wire caught each time, no bolter, ramp strike or crash.
+
+[All aircraft](README.md)
