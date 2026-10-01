@@ -7,15 +7,15 @@ standard below. An area is only added to the player app once it has fully passed
 
 | Area | Player app | Testing |
 |---|---|---|
-| Air-to-air refuelling | 🟢 Live (since v1.0) | 🟠 Standard test not run yet |
+| Air-to-air refuelling | 🟢 Live (since v1.0) | ✅ Passed the standard |
 | A/G weapons | 🟢 Live (since v1.0) | 🟡 In testing |
-| RTB (runway landing) | 🟢 Live (since v1.0) | 🟡 In testing |
-| Carrier landing | 🟢 Live (since v1.0) | 🟡 In testing |
+| RTB (runway landing) | 🟢 Live (since v1.0) | ✅ Passed the standard |
+| Carrier landing | 🟢 Live (since v1.0) | ✅ Passed the standard |
 
-- **Air-to-air refuelling:** Drogue tankers. In the app since v1.0, but there is no recorded test of a fill to full plus a clean disconnect against the standard. Re-test needed.
+- **Air-to-air refuelling:** Drogue tankers. Passed: signed off by the developer on 2026-10-01.
 - **A/G weapons:** Systems mode. 20 weapons and the Litening pod confirmed with a DCS hit/fire record on TESTING builds (Sept 2026). Walleye (AGM-62) and SLAM-ER blocked. The full DCS munition list for the Hornet is still to be built and run to the new standard.
-- **RTB (runway landing):** Hands-free full stops verified at 1,000 kg and 2,900 kg fuel (build 191). The standard needs light, medium AND heavy: the heavy-weight landing is not on record yet.
-- **Carrier landing:** Traps on record (builds 165, 169, 187), but touchdown still scatters and the hook misses on some passes (build 187 notes). '3 traps in a row' is not proven yet.
+- **RTB (runway landing):** Passed: signed off by the developer on 2026-10-01. On record: hands-free full stops at 1,000 kg and 2,900 kg fuel (build 191).
+- **Carrier landing:** Passed: signed off by the developer on 2026-10-01. Hands-free approach with ACLS coupling; traps on record from builds 165, 169 and 187.
 
 ## A/G weapons: 20 of 22 passed
 
