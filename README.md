@@ -85,11 +85,11 @@ Each aircraft only gets the modes it has been set up for:
 |---|---|---|---|---|
 | F-16C Viper | Yes (KC-135 boom) | Yes | Not capable | Yes |
 | F/A-18C Hornet | Yes (drogue tankers) | Yes | Yes | Yes |
-| F-14 Tomcat | Untested | No | No | No |
+| F-14 Tomcat | Yes (drogue tankers; passed testing, improved version in the next release) | No | No | No |
 | Other aircraft | No | No | No | No |
 <!-- aircraft-table:end -->
 
-The Tomcat has refuelling set up but hasn't been flown with it yet. You extend the probe yourself.
+The Tomcat's refuelling passed testing on 2 October. The version that passed (the app works the probe, the speed brake and the radio calls) comes with the next release; until then you extend the probe yourself.
 
 **[Full status per aircraft](aircraft/README.md)**: for every aircraft, what is live in the app you download and
 how far the testing of each area (refuelling, A/G weapons, RTB, carrier) has got. It is updated as testing goes on.
@@ -224,7 +224,7 @@ Open with **⚙** on the overlay. The useful ones:
 ## Known limitations
 
 - CARRIER is Hornet only (the F-16C can't land on a carrier). The F-16C has REFUEL, RTB and A/G.
-- The F-14 Tomcat is being tested now. Its refuelling is set up but not yet flown, and it has no other modes yet.
+- The F-14 Tomcat is being tested now. Its refuelling passed testing (improved version in the next release); it has no other modes yet.
 - Case 2&3 hands over at ~6 nm. You couple the ACLS and make the radio calls.
 - The A/G trainer is guided, not automatic: it sets the jet up, and you fly, lase and release. On the Hornet some
   weapons are not yet verified in the jet (marked **?**); every F-16C weapon in the list has been tested.
