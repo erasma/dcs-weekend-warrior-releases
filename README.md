@@ -80,12 +80,14 @@ always update by hand: download the new zip and unzip it over the old folder.
 
 Each aircraft only gets the modes it has been set up for:
 
+<!-- aircraft-table:start -->
 | Aircraft | Refuel | RTB | Carrier | A/G |
 |---|---|---|---|---|
+| F-16C Viper | Yes (KC-135 boom) | Yes | Not capable | Yes |
 | F/A-18C Hornet | Yes (drogue tankers) | Yes | Yes | Yes |
-| F-16C | Yes (KC-135 boom) | No | No | No |
 | F-14 Tomcat | Untested | No | No | No |
 | Other aircraft | No | No | No | No |
+<!-- aircraft-table:end -->
 
 The Tomcat has refuelling set up but hasn't been flown with it yet. You extend the probe yourself.
 
