@@ -1,6 +1,6 @@
 # Aircraft status
 
-Status on 2026-10-01. Player app version: **v1.1.0 (build 466)**.
+Status on 2026-10-02. Player app version: **v1.2.0 (build 506)**.
 
 What is **live** in the player app, and how far each aircraft's **testing** has got. Every aircraft
 gets its own setup and test for each area, and an area only goes into the player app once it has
@@ -11,7 +11,7 @@ Key: 🟢 live in the app · ✅ passed the test · 🟡 in testing · 🟠 stan
 
 | Aircraft | Refuelling | A/G weapons | RTB | Carrier |
 |---|---|---|---|---|
-| [F-16C Viper](F-16C.md) | 🟢 / ✅ | ⚪ / ✅ | ⚪ / ⚪ | ➖ |
+| [F-16C Viper](F-16C.md) | 🟢 / ✅ | 🟢 / ✅ | 🟢 / ✅ | ➖ |
 | [F/A-18C Hornet](FA-18C.md) | 🟢 / ✅ | 🟢 / 🟡 | 🟢 / ✅ | 🟢 / ✅ |
 | [F-14 Tomcat](F-14.md) | 🟢 / 🟠 | ⚪ / ⚪ | ⚪ / ⚪ | ⚪ / ⚪ |
 | [A-10C II Tank Killer](A-10C-II.md) | ⚪ / ⚪ | ⚪ / ⚪ | ⚪ / ⚪ | ➖ |

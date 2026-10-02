@@ -1,6 +1,6 @@
 # AV-8B Harrier
 
-Status on 2026-10-01. Player app version: **v1.1.0 (build 466)**.
+Status on 2026-10-02. Player app version: **v1.2.0 (build 506)**.
 
 **Live** = in the player app you download. **Testing** = where this area stands against the test
 standard below. An area is only added to the player app once it has fully passed its test.
