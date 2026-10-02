@@ -13,7 +13,7 @@ Key: 🟢 live in the app · ✅ passed the test · 🟡 in testing · 🟠 stan
 |---|---|---|---|---|
 | [F-16C Viper](F-16C.md) | 🟢 / ✅ | 🟢 / ✅ | 🟢 / ✅ | ➖ |
 | [F/A-18C Hornet](FA-18C.md) | 🟢 / ✅ | 🟢 / 🟡 | 🟢 / ✅ | 🟢 / ✅ |
-| [F-14 Tomcat](F-14.md) | 🟢 / ✅ | ⚪ / ⚪ | ⚪ / ⚪ | ⚪ / ⚪ |
+| [F-14 Tomcat](F-14.md) | 🟢 / ✅ | ⚪ / 🟡 | ⚪ / ⚪ | ⚪ / ⚪ |
 | [A-10C II Tank Killer](A-10C-II.md) | ⚪ / ⚪ | ⚪ / ⚪ | ⚪ / ⚪ | ➖ |
 | [AV-8B Harrier](AV-8B.md) | ⚪ / ⚪ | ⚪ / ⚪ | ⚪ / ⚪ | ⚪ / ⚪ |
 | [AJS-37 Viggen](AJS-37.md) | ➖ | ⚪ / ⚪ | ⚪ / ⚪ | ➖ |
