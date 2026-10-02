@@ -85,7 +85,7 @@ Each aircraft only gets the modes it has been set up for:
 |---|---|---|---|---|
 | F-16C Viper | Yes (KC-135 boom) | Yes | Not capable | Yes |
 | F/A-18C Hornet | Yes (drogue tankers) | Yes | Yes | Yes |
-| F-14 Tomcat | Yes (drogue tankers; passed testing, improved version in the next release) | No | No | No |
+| F-14 Tomcat | Yes (drogue tankers; passed testing, improved version in the next release) | No | No | No (passed testing, not in the app yet) |
 | Other aircraft | No | No | No | No |
 <!-- aircraft-table:end -->
 
@@ -224,7 +224,7 @@ Open with **⚙** on the overlay. The useful ones:
 ## Known limitations
 
 - CARRIER is Hornet only (the F-16C can't land on a carrier). The F-16C has REFUEL, RTB and A/G.
-- The F-14 Tomcat is being tested now. Its refuelling passed testing (improved version in the next release); it has no other modes yet.
+- The F-14 Tomcat is being tested now. Its refuelling passed testing (improved version in the next release) and its A/G weapons passed testing (all 18 bombs, rockets and the gun); RTB and carrier are next. A/G unlocks for players once the F-14 has passed everything.
 - Case 2&3 hands over at ~6 nm. You couple the ACLS and make the radio calls.
 - The A/G trainer is guided, not automatic: it sets the jet up, and you fly, lase and release. On the Hornet some
   weapons are not yet verified in the jet (marked **?**); every F-16C weapon in the list has been tested.
