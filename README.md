@@ -2,8 +2,8 @@
 
 An automatic flight assistant for DCS World. It flies the procedural parts of a sortie for you:
 joining a tanker and taking fuel, getting home to a runway, and flying the carrier approach. Then it
-hands the jet back to you. The **F/A-18C Hornet** has every mode; the **F-16C** has air-to-air
-refuelling (see [Aircraft](#aircraft)).
+hands the jet back to you. The **F/A-18C Hornet** has every mode; the **F-16C** has refuelling, RTB
+and the A/G trainer (it can't land on a carrier). See [Aircraft](#aircraft).
 
 **[⬇ Download the latest version](https://github.com/erasma/dcs-weekend-warrior-releases/releases/latest)**
 (get the `WeekendWarrior-….zip` file under *Assets*)
@@ -107,8 +107,8 @@ Donations go towards buying the modules I don't have yet:
 
 **[☕ Buy me a coffee](https://buymeacoffee.com/erasma)**
 
-Modules I already have, so these are the next ones to be set up: F/A-18C, F-16C, F-14 (the older
-version), A-10C II, AV-8B Harrier, AJS-37 Viggen and M-2000C.
+Already set up: F/A-18C and F-16C. In testing now: F-14 (the older version). Modules I already have, so these
+are the next ones to be set up: A-10C II, AV-8B Harrier, AJS-37 Viggen and M-2000C.
 
 ---
 
@@ -188,6 +188,11 @@ cone. It sets up the switches and talks you through them. **You fly the attack a
 Weapons marked **?** / *NOT VERIFIED in the jet* are best-effort. If a step can't be done for you,
 the app tells you which button to press.
 
+**F-16C:** **TARGET SEARCH** picks the enemy and **TARGET WAYPOINT** puts steerpoint 59 on it. **FLIR SETUP**
+slaves the targeting pod to it and point-tracks it, and **WEAPON SETUP** readies the chosen weapon (laser bombs,
+Mavericks, JDAM, JSOW, CBU-103/105, HARM, dumb and cluster bombs, rockets, gun). You fly, lase and release. In
+multiplayer each jet uses its own steerpoint 59.
+
 ---
 
 ## Settings
@@ -218,9 +223,11 @@ Open with **⚙** on the overlay. The useful ones:
 
 ## Known limitations
 
-- RTB, CARRIER and A/G are Hornet only for now. The F-16C has REFUEL only.
+- CARRIER is Hornet only (the F-16C can't land on a carrier). The F-16C has REFUEL, RTB and A/G.
+- The F-14 Tomcat is being tested now. Its refuelling is set up but not yet flown, and it has no other modes yet.
 - Case 2&3 hands over at ~6 nm. You couple the ACLS and make the radio calls.
-- The A/G trainer is guided, not automatic, and some weapons are not verified in the jet.
+- The A/G trainer is guided, not automatic: it sets the jet up, and you fly, lase and release. On the Hornet some
+  weapons are not yet verified in the jet (marked **?**); every F-16C weapon in the list has been tested.
 - Carrier trims start at zero on a deck the app has not landed on before.
 
 ---
