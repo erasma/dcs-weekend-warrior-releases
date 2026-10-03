@@ -85,7 +85,7 @@ Each aircraft only gets the modes it has been set up for:
 |---|---|---|---|---|
 | F-16C Viper | Yes (KC-135 boom) | Yes | Not capable | Yes |
 | F/A-18C Hornet | Yes (drogue tankers) | Yes | Yes | Yes |
-| F-14 Tomcat | Yes (drogue tankers; passed testing, improved version in the next release) | No (passed testing, not in the app yet) | No (passed testing, not in the app yet) | No (passed testing, not in the app yet) |
+| F-14 Tomcat | Yes (drogue tankers) | Yes | Yes | Yes |
 | Other aircraft | No | No | No | No |
 <!-- aircraft-table:end -->
 
