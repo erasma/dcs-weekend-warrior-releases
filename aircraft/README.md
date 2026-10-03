@@ -1,6 +1,6 @@
 # Aircraft status
 
-Status on 2026-10-03. Player app version: **v1.2.0 (build 540)**.
+Status on 2026-10-03. Player app version: **v1.2.0 (build 546)**.
 
 What is **live** in the player app, and how far each aircraft's **testing** has got. Every aircraft
 gets its own setup and test for each area, and an area only goes into the player app once it has
