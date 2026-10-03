@@ -2,8 +2,8 @@
 
 An automatic flight assistant for DCS World. It flies the procedural parts of a sortie for you:
 joining a tanker and taking fuel, getting home to a runway, and flying the carrier approach. Then it
-hands the jet back to you. The **F/A-18C Hornet** has every mode; the **F-16C** has refuelling, RTB
-and the A/G trainer (it can't land on a carrier). See [Aircraft](#aircraft).
+hands the jet back to you. The **F/A-18C Hornet** and the **F-14B Tomcat** have every mode; the **F-16C**
+has refuelling, RTB and the A/G trainer (it can't land on a carrier). See [Aircraft](#aircraft).
 
 **[⬇ Download the latest version](https://github.com/erasma/dcs-weekend-warrior-releases/releases/latest)**
 (get the `WeekendWarrior-….zip` file under *Assets*)
@@ -19,7 +19,7 @@ input and no memory reading.
 
 ## What you need
 
-- Windows 10 or 11, and DCS World with the **F/A-18C** and/or the **F-16C**. See [Aircraft](#aircraft)
+- Windows 10 or 11, and DCS World with the **F/A-18C**, the **F-16C** and/or the **F-14B**. See [Aircraft](#aircraft)
   for which modes each one has.
 - Single-player, or a multiplayer server you host yourself.
 - DCS set to **borderless or windowed** mode if you want the on-screen overlay. In exclusive
@@ -89,7 +89,7 @@ Each aircraft only gets the modes it has been set up for:
 | Other aircraft | No | No | No | No |
 <!-- aircraft-table:end -->
 
-The Tomcat's refuelling passed testing on 2 October. The version that passed (the app works the probe, the speed brake and the radio calls) comes with the next release; until then you extend the probe yourself.
+The Tomcat has been in the app since v1.2.0-b540: refuelling (the app works the probe and the speed brake; you make the two radio calls when it asks), RTB, Case 1 carrier landing and the A/G trainer (Jester sets up the pod and the weapon).
 
 **[Full status per aircraft](aircraft/README.md)**: for every aircraft, what is live in the app you download and
 how far the testing of each area (refuelling, A/G weapons, RTB, carrier) has got. It is updated as testing goes on.
@@ -107,7 +107,7 @@ Donations go towards buying the modules I don't have yet:
 
 **[☕ Buy me a coffee](https://buymeacoffee.com/erasma)**
 
-Already set up: F/A-18C and F-16C. In testing now: F-14 (the older version). Modules I already have, so these
+Already set up: F/A-18C, F-16C and F-14B. Modules I already have, so these
 are the next ones to be set up: A-10C II, AV-8B Harrier, AJS-37 Viggen and M-2000C.
 
 ---
@@ -223,8 +223,12 @@ Open with **⚙** on the overlay. The useful ones:
 
 ## Known limitations
 
-- CARRIER is Hornet only (the F-16C can't land on a carrier). The F-16C has REFUEL, RTB and A/G.
-- The F-14 Tomcat has passed testing in every mode: refuelling, A/G weapons (all 18 bombs, rockets and the gun), RTB landing at light, medium and heavy weight, and Case 1 carrier landing (3 traps in a row). It is not in the current download yet -- it unlocks for players with the next release.
+- CARRIER is for the Hornet and the F-14 Tomcat (the F-16C can't land on a carrier). The F-16C has REFUEL, RTB and A/G.
+- Hornet carrier from **GET TO CARRIER**: the jet can reach the ball high and wave off. Fly the approach yourself if it does.
+- Hornet RTB in a crosswind: it can hold 30-40 m off the centreline on final and touch down off centre.
+- F-16C and F-14 RTB: in a crosswind the rollout can drift up to about 20 m off the centreline after touchdown (it stays on the runway).
+- F-14 carrier landing has been flown at one weight only (about 52,600 lb). F-14 multiplayer is not tested yet.
+- Jester occasionally does not respond at mission start. If WEAPON SETUP says Jester did not select the station, restart the mission.
 - Case 2&3 hands over at ~6 nm. You couple the ACLS and make the radio calls.
 - The A/G trainer is guided, not automatic: it sets the jet up, and you fly, lase and release. On the Hornet some
   weapons are not yet verified in the jet (marked **?**); every F-16C weapon in the list has been tested.
