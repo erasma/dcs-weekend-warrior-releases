@@ -224,7 +224,7 @@ Open with **⚙** on the overlay. The useful ones:
 ## Known limitations
 
 - CARRIER is for the Hornet and the F-14 Tomcat (the F-16C can't land on a carrier). The F-16C has REFUEL, RTB and A/G.
-- Hornet carrier from **GET TO CARRIER**: the jet can reach the ball high and wave off. Fly the approach yourself if it does.
+- Hornet carrier on a long straight-in (for example from **GET TO CARRIER**): the last mile can be flown slightly high, so the jet floats past the wires and bolters. It climbs away safely and comes round for another pass. Short approaches trap reliably (v1.2.0-b556).
 - Hornet RTB in a crosswind: it can hold 30-40 m off the centreline on final and touch down off centre.
 - F-16C and F-14 RTB: in a crosswind the rollout can drift up to about 20 m off the centreline after touchdown (it stays on the runway).
 - F-14 carrier landing has been flown at one weight only (about 52,600 lb). F-14 multiplayer is not tested yet.
