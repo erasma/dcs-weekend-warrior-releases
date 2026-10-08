@@ -1,6 +1,6 @@
 # AJS-37 Viggen
 
-Status on 2026-10-08. Player app version: **v1.2.0 (build 556)**.
+Status on 2026-10-08. Player app version: **v1.2.0 (build 559)**.
 
 **Live** = in the player app you download. **Testing** = where this area stands against the test
 standard below. An area is only added to the player app once it has fully passed its test.

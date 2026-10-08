@@ -1,6 +1,6 @@
 # F/A-18C Hornet
 
-Status on 2026-10-08. Player app version: **v1.2.0 (build 556)**.
+Status on 2026-10-08. Player app version: **v1.2.0 (build 559)**.
 
 **Live** = in the player app you download. **Testing** = where this area stands against the test
 standard below. An area is only added to the player app once it has fully passed its test.
@@ -15,7 +15,7 @@ standard below. An area is only added to the player app once it has fully passed
 - **Air-to-air refuelling:** Drogue tankers. Passed: signed off by the developer on 2026-10-01. v1.2.0-b556 rig test with a full A/G load (2026-10-08): pre-contact settled in under 3 min, one continuous contact 6,750 -> 12,840 lb, clean breakaway.
 - **A/G weapons:** Systems mode. 20 weapons and the Litening pod confirmed with a DCS hit/fire record on TESTING builds (Sept 2026). Walleye (AGM-62) and SLAM-ER blocked. The full DCS munition list for the Hornet is still to be built and run to the new standard.
 - **RTB (runway landing):** Passed: signed off by the developer on 2026-10-01. On record: hands-free full stops at 1,000 kg and 2,900 kg fuel (build 191). v1.2.0-b546: the app now lowers the gear (the old default gear command did nothing), sets full flaps and lowers the hook. Known issue: in a crosswind it holds about 30-40 m off the centreline on final (GET TO RTB 2026-10-03: touchdown -30 m, stopped -12 m).
-- **Carrier landing:** Passed: signed off by the developer on 2026-10-01. Hands-free approach with ACLS coupling; traps on record from builds 165, 169 and 187. v1.2.0-b556 (2026-10-08): a pass that floats past the wires now goes around just past the last wire and climbs out nose-up (two player passes on CVN-71 had gone into the sea); high/low wave-off backstops; faster line-up; damped ball. Rig, CVN-71 Case 1 at 33-34k lb: short approach 5 traps of 5 on the landing point; long 33 nm run-in with the ship at 25 kt: 1 trap and 2 safe bolters (known issue: the last mile can be ~4 m high).
+- **Carrier landing:** Passed: signed off by the developer on 2026-10-01. Hands-free approach with ACLS coupling; traps on record from builds 165, 169 and 187. v1.2.0-b556 (2026-10-08): a pass that floats past the wires now goes around just past the last wire and climbs out nose-up (two player passes on CVN-71 had gone into the sea); high/low wave-off backstops; faster line-up; damped ball. Rig, CVN-71 Case 1 at 33-34k lb: short approach 5 traps of 5 on the landing point; long 33 nm run-in with the ship at 25 kt: 1 trap and 2 safe bolters (fixed in b559). v1.2.0-b559 (2026-10-08): long approaches fixed -- the glideslope correction settles the ball at +2 m far out with anti-windup and drops it fast if low. Rig: long 25 kt run-in 5/5 traps (28-41 m past the aim), short approach 5/6 (one safe bolter), none short.
 
 ## A/G weapons: 20 of 22 passed
 
