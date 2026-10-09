@@ -226,7 +226,7 @@ Open with **⚙** on the overlay. The useful ones:
 - CARRIER is for the Hornet and the F-14 Tomcat (the F-16C can't land on a carrier). The F-16C has REFUEL, RTB and A/G.
 - Hornet RTB in a crosswind: it can hold 30-40 m off the centreline on final and touch down off centre.
 - F-16C and F-14 RTB: in a crosswind the rollout can drift up to about 20 m off the centreline after touchdown (it stays on the runway).
-- F-14 carrier landing has been flown at one weight only (about 52,600 lb). F-14 multiplayer is not tested yet.
+- F-14 carrier landing has been flown at one weight only (about 52,000 lb); long and short approaches trap (v1.2.0-b578). F-14 multiplayer is not tested yet.
 - Jester occasionally does not respond at mission start. If WEAPON SETUP says Jester did not select the station, restart the mission.
 - Case 2&3 hands over at ~6 nm. You couple the ACLS and make the radio calls.
 - The A/G trainer is guided, not automatic: it sets the jet up, and you fly, lase and release. On the Hornet some
